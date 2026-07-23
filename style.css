@@ -1,7 +1,46 @@
 @import url(https://fonts.googleapis.com/css?family=Google+Sans);
 
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+li,a,button{
+    font-family: "Google Sans";
+    font-weight:bold;
+    font-size:16px;
+    color:#113c24;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 30px 10%;
+    
+}
 
 nav{
+    background-color:#D9DA84;
+    border-radius: 100px;
+}
+
+.logo{
+    max-width:50px;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+    
+}
+/* nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     ul{
         list-style-type:none;
         margin: 0;
@@ -9,8 +48,8 @@ nav{
         display: flex;
         justify-content:center;
         background-color: #D9DA84;
-        margin-left:25%;
-        margin-right:25%;
+        margin-left:15%;
+        margin-right:15%;
         border-radius: 100px;
     }
 
@@ -26,6 +65,9 @@ nav{
     ul li a:hover {
         background-color: #fcf6b9;
     }
-
     
+    .logo{
+        max-width:50px;
+        width:auto;
+    }
 }
